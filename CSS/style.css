@@ -1,28 +1,30 @@
 :root{
- --bluebackground: #193549;
- --basecolor: #ffc600;
- --spacing: 10px;
- --blur: 10px;
-}
-html{
-    height: 100vh;
-}
-body{
-    margin: 0;
-    background-color: var(--bluebackground);
-    text-align: center;
-    font-size: 20px;
-    color:white;
-    font-family: 'helvetica neue', sans-serif;
-    font-weight: 100;
-    font-size: 50px;
-}
-img{
-   width: 50%; 
-   margin-top: 5%;
-   background: var(--basecolor);
-   padding: var(--spacing);
-}
-.highlight{
-    color: var(--basecolor);
-}
+    --bluebackground: #193549;
+    --base-color: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+   }
+   html{
+       height: 100vh;
+   }
+   body{
+       margin: 0;
+       background-color: var(--bluebackground);
+       text-align: center;
+       font-size: 20px;
+       color:white;
+       font-family: 'helvetica neue', sans-serif;
+       font-weight: 100;
+       font-size: 50px;
+   }
+   img{
+      width: 50%; 
+      margin-top: 5%;
+      background: var(--base-color);
+      padding: var(--spacing);
+      filter: blur(var(--blur));
+   }
+   .highlight{
+       color: var(--base-color);
+   }
+   
