@@ -1,0 +1,18 @@
+:root{
+ --bluebackground: #193549;
+
+}
+html{
+    height: 100vh;
+}
+body{
+    margin: 0;
+    background-color: var(--bluebackground);
+    text-align: center;
+    font-size: 20px;
+    color:white;
+}
+img{
+   width: 50%; 
+   margin-top: 5%;
+}
